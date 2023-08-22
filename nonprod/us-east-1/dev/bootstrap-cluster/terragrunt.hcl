@@ -1,5 +1,5 @@
 terraform {
-  source = "${find_in_parent_folders("infrastructure-modules/bootstrap-k8s-cluster")}///" //"git@github.com:chrisfel-dev/infrastructure-modules.git//bootstrap-k8s-cluster?ref=v0.0.1"
+  source = "/Users/chris/Documents/personal-github/infrastructure-modules/bootstrap-k8s-cluster///"
 }
 
 include {
@@ -8,5 +8,5 @@ include {
 
 
 inputs = {
-  argocd_namespace = "my-test-argo"
+  argocd_namespace = "argocd"
 }
