@@ -1,3 +1,0 @@
-[submodule "infrastructure-modules"]
-	path = infrastructure-modules
-	url = git@github.com:chrisfel-dev/infrastructure-modules.git
